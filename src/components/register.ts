@@ -15,8 +15,8 @@ export async function registerComponents() {
 
       const { register } = await componentRegistery[name]();
 
-      if (!element.getAttribute("data-registered")) {
-        element.setAttribute("data-registered", "true");
+      if (!element.getAttribute("data-component-registered")) {
+        element.setAttribute("data-component-registered", "true");
         register(element);
       }
     }

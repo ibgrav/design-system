@@ -12,7 +12,7 @@ export const ButtonTemplate = forwardRef<HTMLButtonElement, ButtonProps>(({ coun
       ref={ref}
       onClick={onClick}
       data-component={register ? "button" : undefined}
-      className="border-4 border-blue-700 px-4 py-1 rounded"
+      className="border-2 border-green-700 px-4 py-1 rounded"
     >
       count <span>{count}</span>
     </button>
