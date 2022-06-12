@@ -6,8 +6,7 @@
     "dev": "start-storybook --quiet -p 6006",
     "build": "vite build && tsc && yarn build-tailwind",
     "build-tailwind": "npx tailwindcss -i ./src/styles/index.css -o ./dist/index.css",
-    "build-storybook": "build-storybook --quiet",
-    "publish-storybook": "npx -y chromatic --project-token=affdfc7c1ab5 --force-rebuild --exit-once-uploaded"
+    "build-storybook": "build-storybook --quiet"
   },
   "dependencies": {
     "react": "^18.1.0",
