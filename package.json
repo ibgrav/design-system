@@ -1,11 +1,21 @@
 {
   "name": "@ibgrav/design-system",
-  "private": true,
-  "version": "0.0.1",
+  "version": "0.0.4",
+  "license": "MIT",
+  "author": "Isaac Graves",
+  "repository": "https://github.com/ibgrav/design-system",
+  "files": [
+    "dist",
+    "src",
+    "postcss.config.js",
+    "tailwind.config.js"
+  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "start-storybook --quiet -p 6006",
-    "build": "vite build && tsc && yarn build-tailwind",
-    "build-tailwind": "npx tailwindcss -i ./src/styles/index.css -o ./dist/index.css",
+    "build": "LIB=true vite build && LIB=false vite build && tsc",
     "build-storybook": "build-storybook --quiet"
   },
   "devDependencies": {

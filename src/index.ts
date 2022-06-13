@@ -1,3 +1,2 @@
-export { componentRegistery, registerComponents } from "./components/register";
-
-export { Button, ButtonTemplate } from "./components/Button/Button";
+export { Button } from "./components/Button/Button";
+export { ButtonTemplate } from "./components/Button/Button.template";

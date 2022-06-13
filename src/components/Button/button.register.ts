@@ -1,4 +1,4 @@
-import type { RegisterFn } from "../register";
+import type { RegisterFn } from "../../client";
 
 export const register: RegisterFn<HTMLButtonElement> = (button: HTMLButtonElement) => {
   const incrementButton = () => {

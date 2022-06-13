@@ -1,7 +1,9 @@
+import "./styles/index.css";
+
 export type RegisterFn<E extends Element> = (element: E) => void;
 
 export const componentRegistery: Record<string, () => Promise<{ register: RegisterFn<any> }>> = {
-  button: () => import("./Button/button.register"),
+  button: () => import("./components/Button/button.register"),
 };
 
 export async function registerComponents() {
@@ -22,3 +24,5 @@ export async function registerComponents() {
     }
   });
 }
+
+document.addEventListener("DOMContentLoaded", registerComponents);

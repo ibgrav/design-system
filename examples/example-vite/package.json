@@ -8,7 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@ibgrav/design-system": "^0.0.3",
+    "@ibgrav/design-system": "latest",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
