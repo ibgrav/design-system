@@ -1,5 +1,5 @@
 import { FC, useEffect } from "react";
-import { registerComponents } from "../src/components/register";
+import { registerComponents } from "../src/client";
 
 import "../src/styles/index.css";
 
