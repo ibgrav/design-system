@@ -234,10 +234,10 @@
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
 
-"@ibgrav/design-system@^0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.1.tgz#bb258102cb04edc2e58066e7086d06e3e3d15c97"
-  integrity sha512-O1QaRmb4QStcWjAGZJunZdy0Jjpa2HsprnIMQRJgV3KRZfbzqYJ55mrobBdhHsQ1mSd91z+KXCi0TZuWstc6KA==
+"@ibgrav/design-system@latest":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.4.tgz#5cee075b827015e56b7e70afe49cce37e06fb847"
+  integrity sha512-beyRnv77YHxVRvLFcHNnvhUcm8UFP+xb1UC7a+KB0n3mytsmOO+WGJWcpb/yFlnsvWtmfO3ROkSQjy1FDWwgoA==
 
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"

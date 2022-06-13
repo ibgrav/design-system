@@ -46,10 +46,10 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@ibgrav/design-system@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.3.tgz#94782c85ec9ce66ebe8568209de04782b8301f35"
-  integrity sha512-CUm2p6w5Jro7p1PodhadRi3+cRtrrQxWmrjldUr7G55K08sai2XYZ6pH1A94VKOPDm+TqU/hk8xOAQBSq+LG5Q==
+"@ibgrav/design-system@latest":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.4.tgz#5cee075b827015e56b7e70afe49cce37e06fb847"
+  integrity sha512-beyRnv77YHxVRvLFcHNnvhUcm8UFP+xb1UC7a+KB0n3mytsmOO+WGJWcpb/yFlnsvWtmfO3ROkSQjy1FDWwgoA==
 
 "@next/env@12.1.6":
   version "12.1.6"
