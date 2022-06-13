@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@ibgrav/design-system@latest":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.3.tgz#8d2d422d618833ca5cd80f15412afdd3e1b70d51"
-  integrity sha512-psW7kFY8XlzXajkQ5a5bcqoy2+g3YRDQdFyF1idW/DlAo1ND4FINzFEuyck1Q+pmFzZi0eB8cetKyLF5b+flBQ==
+"@ibgrav/design-system@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@ibgrav/design-system/-/design-system-0.0.4.tgz#5cee075b827015e56b7e70afe49cce37e06fb847"
+  integrity sha512-beyRnv77YHxVRvLFcHNnvhUcm8UFP+xb1UC7a+KB0n3mytsmOO+WGJWcpb/yFlnsvWtmfO3ROkSQjy1FDWwgoA==
 
 "@types/node@^17.0.42":
   version "17.0.42"

@@ -14,11 +14,15 @@ export function Document({ children }: DocumentProps) {
         <head>
           <meta name="viewport" content="width=device-width, initial-scale=1.0" />
           <title>Harvard Business School</title>
-          <link href={src("client.css")} rel="stylesheet" />
+
+          <link rel="preload" crossOrigin="anonymous" href={src("client.css")} as="style" />
+          <link rel="preload" crossOrigin="anonymous" href={src("client.js")} as="script" />
+
+          <link href={src("client.css")} crossOrigin="anonymous" rel="stylesheet" />
         </head>
         <body>
           {children}
-          <script src={src("client.js")} type="module"></script>
+          <script src={src("client.js")} crossOrigin="anonymous" type="module"></script>
         </body>
       </html>
     </>

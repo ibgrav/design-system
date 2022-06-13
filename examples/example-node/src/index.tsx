@@ -1,12 +1,17 @@
 import { createServer } from "http";
+import { Page } from "./Page";
 import { render } from "./render";
 
 const server = createServer((req, res) => {
-  res.statusCode = 200;
+  try {
+    const doc = render(<Page />);
 
-  if (!res.headersSent) {
+    res.statusCode = 200;
     res.setHeader("content-type", "text/html");
-    res.end(render());
+    res.end(doc);
+  } catch (e) {
+    res.statusCode = 500;
+    res.end(e.stack);
   }
 });
 
